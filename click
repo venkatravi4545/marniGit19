@@ -11,4 +11,4 @@ Run the git status command.
 $ git status
 Run the following git commit command.
 $ git commit -m "First commit."
-Terminal 1
+Terminal 1 or file you've specified because it doesn't exist in the current working directory or in the Git repository. This can happen for a few reasons:
