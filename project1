@@ -1,0 +1,41 @@
+Create a folder for the project and name it SampleProject.
+
+$ mkdir SampleProject
+Create some files inside the project folder.
+
+$ cd SampleProject
+$ touch file1.txt
+Run the git init command, which initializes the current folder as a Git-controlled repository.
+
+$ git init
+Run the git add . command to mark the files to be version controlled. The names of the files to be added to the Git repository come after the git add command. The . means adding all files in the current directory.
+
+$ git add .
+Run git status to preview the commit.
+
+$ git status
+Run the following git commit command to commit the marked files into the repository. This step saves the changes as a snapshot.
+
+$ git commit -m "First commit."
+Note: As a beginner, it’s easy to forget the commit message. The git commit command requires the message to exist, but sometimes beginners try to avoid it by using -m "". This leads to rejection from Git with the message “Aborting commit due to empty commit message.”
+
+Further steps
+By using the add and commit commands, we can make changes to our files or source code. When we need a snapshot, we can git add the changed files and git commit them into the version-controlled repository.
+
+Practice the following commands in the terminal given below:
+
+Create a folder.
+$ mkdir SampleProject
+Create some files.
+$ cd SampleProject
+$ touch file1.txt
+Run the git init command.
+$ git init
+Run the git add . command.
+$ git add .
+Run the git status command.
+$ git status
+Run the following git commit command.
+$ git commit -m "First commit."
+Terminal 1
+
